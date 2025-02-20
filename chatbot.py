@@ -4,7 +4,8 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-API_KEY = os.getenv("GEMINI_API_KEY")
+API_KEY = "AIzaSyD5V7gNXxydAjM-N5Rs53rcqDzvd61RKwA"
+
 
 genai.configure(api_key=API_KEY)
 
